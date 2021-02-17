@@ -113,5 +113,7 @@
 			}
 		}
 	});
-
 })(jQuery);
+// Activate WOW.js plugin for animation on scroll
+new WOW().init();
+

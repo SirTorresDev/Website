@@ -684,6 +684,8 @@ a:hover {
   margin-left: 9px;
 }
 
+
+
 .skill-mf span {
   color: #4e4e4e;
 }
@@ -698,6 +700,102 @@ a:hover {
 .skill-mf .progress .progress-bar {
   height: .7rem;
   background-color: #0078ff ;
+  transform: scaleX(0); 
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.progress-barc{
+  width: 70%;
+  background-color: #0078ff ;
+  transform: scaleX(0); 
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.progress-barjava{
+  width: 85%;
+  background-color: #0078ff ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.progress-barpython{
+  width: 60%;
+  background-color: #0078ff ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.progress-barsql{
+  width: 75%;
+  background-color: #0078ff ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.progress-barmongo{
+  width: 30%;
+  background-color: #0078ff ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.progress-barnode{
+  width: 80%;
+  background-color: #0078ff ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.progress-barhtml{
+  width: 100%;
+  background-color: #0078ff ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.progress-barjs{
+  width: 60%;
+  background-color: #0078ff ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.progress-barreact{
+  width: 50%;
+  background-color: #0078ff ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+.progress-barjq{
+  width: 50%;
+  background-color: #0078ff ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.progress-barex{
+  width: 70%;
+  background-color: #0078ff ;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 2s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+
+.skill-mf2{
+  padding-top: 25%;
 }
 
 /*======================================
