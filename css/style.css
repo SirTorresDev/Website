@@ -1064,6 +1064,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  border-radius: 14.5px;
 }
 
 .work-box:hover img {
@@ -1074,6 +1075,7 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  border-radius: 7.5px;
 }
 
 .work-img img {
